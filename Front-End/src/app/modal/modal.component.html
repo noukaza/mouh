@@ -1,0 +1,110 @@
+<div *ngIf="data.type === 'detail' ">
+  <h1 mat-dialog-title>Detail ouvrages</h1>
+  <div mat-dialog-content>
+    <div>
+      <div class="col">
+        <div class="row" style="text-space: 10px" > Titre :
+          <label>{{data.ouvrage.titre}}</label>
+        </div>
+        <div class="row"> Genre
+          <label>: {{data.ouvrage.genre}}</label>
+        </div>
+        <div class="row"> Statut
+          <label>: {{data.ouvrage.statut}}</label>
+        </div>
+        <div class="row"> ISBN
+          <label>: {{data.ouvrage.ISBN}}</label>
+        </div>
+        <div class="row"> Auteur
+          <label>: {{data.ouvrage.auteur}}</label>
+        </div>
+        <div class="row"> emplacement physique
+          <label>: {{data.ouvrage.emplacementP}}</label>
+        </div>
+        <div class="row"> Maison d’édition
+          <label>: {{data.ouvrage.maisonE}}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="data.type === 'add' ">
+  <h1 mat-dialog-title>Add ouvrages</h1>
+  <div mat-dialog-content>
+    <div>
+      <mat-form-field class="example-full-width">
+        <mat-label>Titre</mat-label>
+        <input matInput placeholder="titre" [(ngModel)]="newOuvrage.titre">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Genre</mat-label>
+        <input matInput placeholder="genre" [(ngModel)]="newOuvrage.genre">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>ISBN</mat-label>
+        <input matInput placeholder="ISBN" [(ngModel)]="newOuvrage.ISBN">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Auteur</mat-label>
+        <input matInput placeholder="auteur" [(ngModel)]="newOuvrage.auteur">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Emplacement physique</mat-label>
+        <input matInput placeholder="emplacementP" [(ngModel)]="newOuvrage.emplacementP">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Maison d’édition</mat-label>
+        <input matInput placeholder="maisonE" [(ngModel)]="newOuvrage.maisonE">
+      </mat-form-field>
+    </div>
+    <div class="avatar-upload">
+      <div class="avatar-edit">
+        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" #fileInput (change)="uploadFile($event)" />
+      </div>
+      <!--          <div class="avatar-preview">-->
+      <!--            <div id="imagePreview" [style.backgroundImage]="'url('+ imageUrl +')'">-->
+      <!--            </div>-->
+      <!--          </div>-->
+    </div>
+    <div mat-dialog-actions>
+      <button mat-button (click)="saveAdd()">Save</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="data.type === 'edit' ">
+  <h1 mat-dialog-title>Edit ouvrages</h1>
+  <div mat-dialog-content>
+    <div>
+      <mat-form-field class="example-full-width">
+        <mat-label>Titre</mat-label>
+        <input matInput placeholder="titre" [(ngModel)]="data.ouvrage.titre">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Genre</mat-label>
+        <input matInput placeholder="genre" [(ngModel)]="data.ouvrage.genre">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>ISBN</mat-label>
+        <input matInput placeholder="ISBN" [(ngModel)]="data.ouvrage.ISBN">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Auteur</mat-label>
+        <input matInput placeholder="auteur" [(ngModel)]="data.ouvrage.auteur">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Emplacement physique</mat-label>
+        <input matInput placeholder="emplacementP" [(ngModel)]="data.ouvrage.emplacementP">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Maison d’édition</mat-label>
+        <input matInput placeholder="maisonE" [(ngModel)]="data.ouvrage.maisonE">
+      </mat-form-field>
+    </div>
+    <div  mat-dialog-actions>
+      <button mat-button (click)="saveEdit()">Save</button>
+    </div>
+  </div>
+</div>
+

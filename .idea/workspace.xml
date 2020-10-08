@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="578b18af-7c51-46a5-803c-76904b6ca0da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End/configurations/ouvrage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End/configurations/uploadImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End/controllers/ouvrage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End/controllers/ouvrage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End/models/ouvrage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End/models/ouvrage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End/routes/ouvrage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End/routes/ouvrage.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iKQKq1gahxWhwpkR6coUYiIWod" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../photo-sharing-site" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\ADBI_101\Desktop\Projet UPEC\gestion_ouvrages\Front-End\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="578b18af-7c51-46a5-803c-76904b6ca0da" name="Default Changelist" comment="" />
+      <created>1601653742664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601653742664</updated>
+      <workItem from="1601653744203" duration="42837000" />
+      <workItem from="1601795914504" duration="16426000" />
+      <workItem from="1601885852058" duration="1210000" />
+      <workItem from="1601921511214" duration="9061000" />
+      <workItem from="1601977451833" duration="193000" />
+      <workItem from="1602151715125" duration="4468000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
